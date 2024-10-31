@@ -1,0 +1,82 @@
+1. Acceptance Test para US01 - Respuesta Automática a Mensajes
+
+Escenario 1 : Configuración correcta de respuestas automáticas.
+
+Dado que configuró la IA para responder automáticamente a ciertos mensajes cuando esté ocupado,
+Cuando la IA recibe un mensaje que cumple con los criterios configurados,
+Entonces la IA enviará la respuesta correcta de acuerdo con mis instrucciones.
+Resultado esperado : La IA responde automáticamente con el mensaje configurado, respetando el tono de comunicación del usuario.
+
+Escenario 2 : Notificación por mensajes fuera del contexto definido.
+
+Dado que configuró la IA para responder a ciertos mensajes,
+Cuando la IA recibe un mensaje que no coincide con los criterios configurados,
+Entonces la IA no enviará respuesta y me notificará sobre la recepción del mensaje fuera del contexto.
+Resultado esperado : La IA notifica que el mensaje no cumple con los criterios de respuesta automática.
+
+
+2. Cifrado de mensajes (US04)
+
+Escenario 1 : Cifrado de mensajes exitoso.
+
+Dado que las comunicaciones están protegidas por cifrado,
+Cuando la IA envía o recibe mensajes,
+Entonces los datos estarán protegidos con cifrado de grado militar, permitiendo que solo las partes involucradas accedan.
+Resultado esperado : Los mensajes se transmiten con seguridad.
+
+Escenario 2 : Falla por incompatibilidad de cifrado.
+
+Dado que las comunicaciones están cifradas,
+Cuando la IA intenta enviar un mensaje a una plataforma no compatible con cifrado,
+Entonces la IA notificará que el mensaje no puede ser enviado de manera segura.
+Resultado esperado : La aplicación informa de la falta de seguridad y permite ele
+
+
+3. Personalización del Avatar (US08)
+
+Escenario 1 : Personalización completa y exitosa del avatar.
+
+Dado que estoy personalizando mi avatar,
+Cuando seleccionas opciones de apariencia y voz,
+Entonces el avatar se ajustará según mis preferencias de personalización.
+Resultado esperado : El avatar refleja los cambios aplicados sin fallos.
+
+Escenario 2 : Notificación de error por incompatibilidad de elementos.
+
+Dado que estoy personalizando mi avatar,
+Cuando selecciona elementos incompatibles (como una voz no disponible en mi idioma),
+Entonces recibirá una notificación de error y se me pedirá ajustar la configuración.
+Resultado esperado : La aplicación informa los errores de incompatibilidad para evitar problemas visuales o de voz.
+
+4. Análisis de Sentimientos en Conversaciones (US10)
+
+Escenario 1 : Análisis correcto de tono emocional.
+
+Dado que quiero conocer el tono emocional de una conversación,
+Cuando la IA analiza el diálogo,
+Entonces el sistema me proporcionará un análisis de las emociones percibidas.
+Resultado esperado : El usuario recibe un análisis preciso de la conversación.
+
+Escenario 2 : Notificación de interpretación incorrecta.
+
+Dado que la IA está analizando una conversación,
+Cuando la conversación incluye sarcasmo o ironía,
+Entonces el sistema notificará posibles errores en el análisis emocional.
+Resultado esperado : La aplicación informa cuando la interpretación del tono emocional no es precisa.
+
+
+5. Resumen Diario de Mensajes Importantes (US15)
+
+Escenario 1 : Resumen diario generado correctamente.
+
+Dado que activó el resumen diario,
+Cuando la IA analiza mis mensajes,
+Entonces recibo un resumen con los puntos clave del día.
+Resultado esperado : El usuario puede ver el resumen de mensajes importantes al final del día.
+
+Escenario 2 : Notificación de falta de mensajes relevantes.
+
+Dado que solicité un resumen diario,
+Cuando la IA no encuentra suficientes mensajes relevantes,
+Entonces recibirá una notificación indicando la falta de información para el resumen.
+Resultado esperado : La aplicación informa al usuario cuando no hay mensajes para reanudar, respetando su configuración.
